@@ -5,9 +5,11 @@
 Также сделан responsive adaptive.
 Используемые технологии: 
 - ReactJS 18
+- Redux Thunk
 - Redux Toolkit
 - React Router
 - Axios
+- Prettier
 - React Hooks
 - CSS-Modules / SCSS
 - React Content Loader
