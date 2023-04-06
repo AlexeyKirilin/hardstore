@@ -1,11 +1,11 @@
 import NotFoundeBlock from '../components/NotFoundeBlock';
 
 const NotFound = () => {
-    return (
-        <>
-            <NotFoundeBlock/>
-        </>
-    );
+  return (
+    <>
+      <NotFoundeBlock />
+    </>
+  );
 };
 
 export default NotFound;

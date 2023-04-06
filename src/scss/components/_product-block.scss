@@ -10,16 +10,15 @@
   &:not(:nth-of-type(4n)) {
     margin-right: 35px;
   }
-  @media(max-width: 470px) {
+  @media (max-width: 470px) {
     width: 235px;
   }
   img {
     object-fit: contain;
-    @media(max-width: 470px) {
+    @media (max-width: 470px) {
       width: 220px;
     }
   }
-
 
   &-wrapper {
     display: flex;
@@ -36,7 +35,7 @@
     font-weight: 900;
     letter-spacing: 1%;
     margin-bottom: 20px;
-    @media(max-width: 470px) {
+    @media (max-width: 470px) {
       font-size: 18px;
     }
   }
@@ -44,7 +43,6 @@
     font-size: 14px;
   }
 
- 
   &__bottom {
     display: flex;
     align-items: center;
@@ -58,9 +56,8 @@
     font-size: 22px;
     line-height: 27px;
     letter-spacing: 0.015em;
-    @media(max-width: 470px) {
+    @media (max-width: 470px) {
       font-size: 18px;
     }
   }
-  
 }

@@ -1,4 +1,6 @@
-import { createSlice } from "@reduxjs/toolkit";
+import {
+    createSlice
+} from "@reduxjs/toolkit";
 
 const initialState = {
     categoryId: 0,
@@ -7,7 +9,7 @@ const initialState = {
     sort: {
         name: 'Цене (дороже)',
         sortProperty: 'price'
-      }
+    }
 }
 
 export const filterSlise = createSlice({
@@ -27,8 +29,13 @@ export const filterSlise = createSlice({
             state.currentPage = action.payload;
         }
     }
-}) 
+})
 
-export const {setCategoryId, setSort, setCurrentPage, setSearchValue } = filterSlise.actions;
+export const {
+    setCategoryId,
+    setSort,
+    setCurrentPage,
+    setSearchValue
+} = filterSlise.actions;
 
 export default filterSlise.reducer

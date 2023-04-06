@@ -1,11 +1,11 @@
-import FormOrder from '../components/FormOrder'
+import FormOrder from '../components/FormOrder';
 
 const Order = () => {
-    return (
-        <>
-            <FormOrder/>
-        </>
-    );
+  return (
+    <>
+      <FormOrder />
+    </>
+  );
 };
 
 export default Order;
